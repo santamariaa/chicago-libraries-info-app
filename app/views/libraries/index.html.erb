@@ -1,0 +1,8 @@
+<h1>All of Chicago Libraries</h1>
+<h2><% @libraries.each do |library| %></h2>
+    <h2> <%= library["name_"] %> </h2>
+    <h4> <%= library["phone"] %> </h4>
+    <h4> <%= library["address"] %> </h4>
+    
+<% end %>
+
